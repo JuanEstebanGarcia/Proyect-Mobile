@@ -26,7 +26,7 @@ export const homeScreen = ({ navigation }) => {
           <Text style={styles.textButton}>Registrar hora y consultar registros </Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.registerNews} onPress={() => navigation.navigate('Novedades')}>
-          <Text style={styles.textButton}>Realizar Novedad</Text>
+          <Text style={styles.textButton}>Realizar novedad</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.exitButton} onPress={() => navigation.navigate('Pagina Principal')}>
           <Text style={styles.textButton}>Salir</Text>
